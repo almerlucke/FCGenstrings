@@ -396,6 +396,8 @@
     // them with existing Localizable.strings files, we keep the values already in Localizable.strings files
     // for the collected keys found and then overwrite Localizable.strings files
     
+    printf("Scanning directories for localized strings...\n");
+    
     // get collected strings from root directory .m, .xib and .storyboard
     NSDictionary *collectedStrings = [self localizedStringsForDirectory:directory];
     
@@ -405,6 +407,8 @@
     NSArray *collectedKeys = [collectedStrings allKeys];
     
     for (NSString *localizableStringsFile in localizableStringsFiles) {
+        printf("Updating Localized.strings file %s\n", [localizableStringsFile cStringUsingEncoding:NSUTF8StringEncoding]);
+        
         // get current strings in Localizable file
         NSDictionary *currentStrings = [self localizedStringsForLocalizableStringsFile:localizableStringsFile];
         NSMutableArray *entries = [NSMutableArray array];

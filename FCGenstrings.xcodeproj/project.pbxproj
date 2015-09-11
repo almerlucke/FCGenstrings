@@ -79,9 +79,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CBED22231BA2D9FF0089A0DF /* FCGenstrings */ = {
+		CBED22231BA2D9FF0089A0DF /* fcgenstrings */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CBED222B1BA2D9FF0089A0DF /* Build configuration list for PBXNativeTarget "FCGenstrings" */;
+			buildConfigurationList = CBED222B1BA2D9FF0089A0DF /* Build configuration list for PBXNativeTarget "fcgenstrings" */;
 			buildPhases = (
 				CBED22201BA2D9FF0089A0DF /* Sources */,
 				CBED22211BA2D9FF0089A0DF /* Frameworks */,
@@ -91,7 +91,7 @@
 			);
 			dependencies = (
 			);
-			name = FCGenstrings;
+			name = fcgenstrings;
 			productName = FCGenstrings;
 			productReference = CBED22241BA2D9FF0089A0DF /* FCGenstrings */;
 			productType = "com.apple.product-type.tool";
@@ -122,7 +122,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CBED22231BA2D9FF0089A0DF /* FCGenstrings */,
+				CBED22231BA2D9FF0089A0DF /* fcgenstrings */,
 			);
 		};
 /* End PBXProject section */
@@ -243,7 +243,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CBED222B1BA2D9FF0089A0DF /* Build configuration list for PBXNativeTarget "FCGenstrings" */ = {
+		CBED222B1BA2D9FF0089A0DF /* Build configuration list for PBXNativeTarget "fcgenstrings" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CBED222C1BA2D9FF0089A0DF /* Debug */,

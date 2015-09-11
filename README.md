@@ -46,4 +46,8 @@ Example generated strings:
 
 ## Usage
 
+If you have build the command line tool **fcgenstrings** from the Xcode project you can use it by executing it and passing it a folder name
 
+	fcgenstrings foldername
+
+This will scan all .m, .xib and .storyboard files and parse the localized strings. Then fcgenstrings will go through all existing Localizable.strings and update these.
