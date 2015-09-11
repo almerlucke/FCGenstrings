@@ -24,7 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CBED22241BA2D9FF0089A0DF /* FCGenstrings */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FCGenstrings; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBED22241BA2D9FF0089A0DF /* fcgenstrings */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = fcgenstrings; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBED22271BA2D9FF0089A0DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CBED222F1BA2DA630089A0DF /* FCGenstrings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCGenstrings.h; sourceTree = "<group>"; };
 		CBED22301BA2DA630089A0DF /* FCGenstrings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCGenstrings.m; sourceTree = "<group>"; };
@@ -52,7 +52,7 @@
 		CBED22251BA2D9FF0089A0DF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CBED22241BA2D9FF0089A0DF /* FCGenstrings */,
+				CBED22241BA2D9FF0089A0DF /* fcgenstrings */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -93,7 +93,7 @@
 			);
 			name = fcgenstrings;
 			productName = FCGenstrings;
-			productReference = CBED22241BA2D9FF0089A0DF /* FCGenstrings */;
+			productReference = CBED22241BA2D9FF0089A0DF /* fcgenstrings */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -250,6 +250,7 @@
 				CBED222D1BA2D9FF0089A0DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
