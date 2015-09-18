@@ -42,7 +42,7 @@ Example generated strings:
 	
 ### Localized interface file elements
 
-**FCGenstrings** can scan interface files for occurrences of *localizableInterfaceElementKey* entries added by people using **FCLocalizableInterfaceElement**. These entries are also added to the strings file.
+**FCGenstrings** can scan interface files for occurrences of *localizableInterfaceElementKey* entries added by people using **[FCLocalizableInterfaceElement](https://github.com/lickylick/FCLocalizableInterfaceElement)**. These entries are also added to the strings file.
 
 ## Usage
 
